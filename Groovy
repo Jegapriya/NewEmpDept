@@ -3,7 +3,7 @@ node {
    def server=Artifactory.server'Artifactory'
    try{
        stage('Preparation') {
-          git 'https://github.com/Jegapriya/EmpDeptSpring.git'
+          git 'https://github.com/Jegapriya/NewEmpDept.git'
            
           mvnHome = tool 'Maven'
        }
