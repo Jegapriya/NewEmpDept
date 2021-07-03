@@ -3,7 +3,7 @@ node('master') {
   try {    
 
     stage('Checkout From Git'){
-        git branch: 'Jenkins', url: 'https://github.com/Jegapriya/EmpDeptSpring.git'
+        git branch: 'master', url: 'https://github.com/Jegapriya/NewEmpDept.git'
     }
     
     stage('clean') {
